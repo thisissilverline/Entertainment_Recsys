@@ -27,9 +27,6 @@ or
 
 | Model                                                     | Recall@20  | NDCG@20    |
 |:--------------------------------------------------------- |:----------:|:----------:|
-| NGCF [[SIGIR'19](https://arxiv.org/abs/1905.08108)]       | 0.0344     | 0.0263     |
-| LightGCN [[SIGIR'20](https://arxiv.org/abs/2002.02126)]   | 0.0411     | 0.0315     |
-| SGL-ED [[SIGIR'21](https://arxiv.org/pdf/2010.10783.pdf)] | 0.0478     | 0.0379     |
 | UltraGCN [[CIKM'21](https://arxiv.org/abs/2110.15114)]    | **0.0681** | **0.0556** |
 
 + Follow the script below to reproduce the results
@@ -38,16 +35,11 @@ or
   python {main.py} --config_file ./config/{ultragcn_amazonbooks_m1.ini}
   ```
 
-+ See the running log: [results/{ultragcn_amazonbooks_m1.log}](./results/{ultragcn_amazonbooks_m1.log}) 
-
 
 ### Results on Movielens-1M
 
 | Model                                                   | F1@20      | NDCG@20    | Recall@20  |
 |:------------------------------------------------------- |:----------:|:----------:|:----------:|
-| NGCF [[SIGIR'19](https://arxiv.org/abs/1905.08108)]     | 0.1582     | 0.2511     | 0.2513     |
-| LCFN [[ICML'20](https://arxiv.org/abs/2006.15516)]      | 0.1625     | 0.2603     |            |
-| LightGCN [[SIGIR'20](https://arxiv.org/abs/2002.02126)] |            | 0.2427     | 0.2576     |
 | UltraGCN [[CIKM'21](https://arxiv.org/abs/2110.15114)]  | **0.2004** | **0.2642** | **0.2787** |
 
 + Follow the script below to reproduce the results
@@ -59,8 +51,6 @@ or
   
   python {main.py} --config_file ./config/{ultragcn_movielens1m_m1.ini}
   ```
-
-+ See the running log: [results/{ultragcn_movielens1m_m1.log}](./results/{ultragcn_movielens1m_m1.log}) 
 
 
 
