@@ -27,7 +27,8 @@ or
 
 | Model                                                     | Recall@20  | NDCG@20    |
 |:--------------------------------------------------------- |:----------:|:----------:|
-| UltraGCN [[CIKM'21](https://arxiv.org/abs/2110.15114)]    | **0.0681** | **0.0556** |
+| UltraGCN [[CIKM'21](https://arxiv.org/abs/2110.15114)]    | **0.0679** | **0.0555** |
+| UltraGCN + Degree Centrality                              | **0.0678** | **0.0553** |
 
 + Follow the script below to reproduce the results
   
@@ -38,9 +39,12 @@ or
 
 ### Results on Movielens-1M
 
-| Model                                                   | F1@20      | NDCG@20    | Recall@20  |
-|:------------------------------------------------------- |:----------:|:----------:|:----------:|
-| UltraGCN [[CIKM'21](https://arxiv.org/abs/2110.15114)]  | **0.2004** | **0.2642** | **0.2787** |
+| Model                                                   | Recall@20  | NDCG@20    |
+|:------------------------------------------------------- |:----------:|:----------:|
+| UltraGCN [[CIKM'21](https://arxiv.org/abs/2110.15114)]  | **0.2769** | **0.2628** |
+| UltraGCN + Degree Centrality                            | **0.2784** | **0.2634** |
+| UltraGCN + Top-k negative sampling                      | **0.2800** | **0.2669** |
+
 
 + Follow the script below to reproduce the results
   
