@@ -12,11 +12,7 @@
 + **Download:** https://huggingface.co/datasets/reczoo/Movielens1M_m1/tree/main
 + **RecZoo Datasets:** https://github.com/reczoo/Datasets
 
-+ **Used by papers:**
-  - Wenhui Yu, Zheng Qin. [Graph Convolutional Network for Recommendation with Low-pass Collaborative Filters](https://arxiv.org/abs/2006.15516). In ICML 2020.
-  - Kelong Mao, Jieming Zhu, Jinpeng Wang, Quanyu Dai, Zhenhua Dong, Xi Xiao, Xiuqiang He. [SimpleX: A Simple and Strong Baseline for Collaborative Filtering](https://arxiv.org/abs/2109.12613). In CIKM 2021.
-  - Kelong Mao, Jieming Zhu, Xi Xiao, Biao Lu, Zhaowei Wang, Xiuqiang He. [UltraGCN: Ultra Simplification of Graph Convolutional Networks for Recommendation](https://arxiv.org/abs/2110.15114). In CIKM 2021.
-  
+
 + **Check the md5sum for data integrity:**
   ```bash
   $ md5sum *.json
