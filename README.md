@@ -13,7 +13,9 @@ python==3.7.6
 '''bash
 pip install torch==1.10.2+cu102, numpy==1.19.5, scipy==1.5.2, tensorboard==2.11.2
 '''
+
 or
+
 '''bash
 pip install torch==1.11.0+cu102, numpy==1.21.6, scipy==1.7.3, tensorboard==2.11.2
 '''
