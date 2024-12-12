@@ -16,10 +16,6 @@ user_id item1 item2 ...
 + **Download:** https://huggingface.co/datasets/reczoo/AmazonBooks_m1/tree/main
 + **RecZoo Datasets:** https://github.com/reczoo/Datasets
 
-+ **Used by papers:** 
-    - Xiangnan He, Kuan Deng, Xiang Wang, Yan Li, Yongdong Zhang, Meng Wang. [LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation](https://arxiv.org/abs/2002.02126). In SIGIR 2020.
-    - Kelong Mao, Jieming Zhu, Jinpeng Wang, Quanyu Dai, Zhenhua Dong, Xi Xiao, Xiuqiang He. [SimpleX: A Simple and Strong Baseline for Collaborative Filtering](https://arxiv.org/abs/2109.12613). In CIKM 2021.
-    - Kelong Mao, Jieming Zhu, Xi Xiao, Biao Lu, Zhaowei Wang, Xiuqiang He. [UltraGCN: Ultra Simplification of Graph Convolutional Networks for Recommendation](https://arxiv.org/abs/2110.15114). In CIKM 2021.
 
 + **Check the md5sum for data integrity:**
     ```bash
